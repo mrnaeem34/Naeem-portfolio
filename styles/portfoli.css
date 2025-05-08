@@ -195,3 +195,42 @@ footer input[type="text"], footer input[type="email"], footer textarea{
     border: none;
 
 }
+@media screen and (max-width: 576px) {
+    .skills-container{
+        flex-direction: column;
+    }
+  footer input[type="text"], footer input[type="email"], 
+  footer textarea   .resume-container, .banner .about-items{
+        flex-direction: column;
+    }
+    footer, nav ul{
+        flex-direction: column;
+    }
+    .resume-container{
+        flex-direction: column;
+    }
+    nav{
+        flex-direction: column;
+    }
+    footer, .about{
+        padding: 20px;
+    }
+    .banner{
+        margin: 20px;
+    }
+    .header{
+        background-image: none;
+    }
+    .btn-primary{
+        margin-bottom: 20px;
+    }
+    .banner-profile-pic{
+        width: 100%;
+    }
+    .footer-colum{
+        width: 100%;
+    }
+    footer input[type="text"], footer input[type="email"], footer textarea{
+        width: calc(100% - 40px);
+    }
+}
